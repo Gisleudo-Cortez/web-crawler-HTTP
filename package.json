@@ -1,0 +1,20 @@
+{
+  "name": "seo-link-analyzer",
+  "version": "1.0.0",
+  "description": "boot.dev web crawler project in js for SEO link analyzer",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node main.js"
+  },
+  "jest":{
+    "transform": {}
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
